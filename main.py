@@ -27,17 +27,18 @@ wkimset = list(workimage.getdata())
 # in theory this code counts up the width and height of the image and adds them to each individual set of the old tuple as a new list (R,G,B,A,W,H) and makes a new tuple element out of this list
 width = Image.width(imgdir)
 height = Image.height(imgdir)
-for global int height:
-  height = height + 1 
+for x in global int height:
+  height = x+1
   loopheight = height
   width = 0
-  for global int width:
+  for width in global int width:
     count = count + 1 
     width = width + 1 
     wkimlist = list(wkimset[count])
     wkimlist.extend(str width, str loopheight)
-    wkimageref = tuple + (wkimlist)
+    wkimageref = wkimageref + (wkimlist)
 
-# from here we should be able to comparing and grouping the pixels, and sticking them in groups (maybe name the group the color and a group iter?)
-    
+# from here we should be able to comparing and grouping the pixels, and sticking them in objects (maybe name the group the color and a group iter?)
+# how the fuck do tuples work ?????
+wkimageref[i] 
     
